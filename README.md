@@ -1,3 +1,19 @@
+# Readme for Hyperapp-test
+To run:
+```
+npm run start
+```
+To build for production
+```
+npm run build
+```
+To run viewable on local phone
+* build for production
+```
+cd dist
+http-server .
+```
+
 
 Based on webpack 4 tutorial at
 https://www.valentinog.com/blog/webpack-tutorial/
@@ -17,6 +33,9 @@ for production, best to extract css to single file via
 https://github.com/webpack-contrib/mini-css-extract-plugin
 and consider also: css minification described on that same page
 
+
+consider: structure of hyperapp application as per..
+https://github.com/kwasniew/hyperapp-realworld-example-app
 
 
 consider: jest for testing...?

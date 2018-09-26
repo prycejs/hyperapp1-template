@@ -1,0 +1,50 @@
+.logo {
+  width: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.todo-header {
+  font-size: 1.8em;
+}
+
+.todo-container {
+  padding: 1em;
+}
+
+.todo-item {
+  border: 1px solid #AABBFF;
+  padding: 0.4em 0.8em;
+  display: block;
+  position: relative;
+
+  .todo-item-delete {
+    position: absolute;
+    top: 0.2em;
+    right: 0.2em;
+
+    color: black;
+    background-color: #ff7373;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #c70202;
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    text-align: center;
+  }
+}
+
+.todo-panel {
+  input {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 1.2em;
+    background-color: black;
+    color: #AABBFF;
+    width: 18em; // 18em; 
+    padding: 0.2em 0.8em;
+  }
+}
