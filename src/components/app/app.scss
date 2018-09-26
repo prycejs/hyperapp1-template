@@ -1,0 +1,32 @@
+$font-stack: 'Verdana', Helvetica, sans-serif;
+
+$backing-color: #333;
+$primary-color: #AABBFF;
+
+body {
+  background-color: $backing-color;
+  color: $primary-color;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $font-stack;
+}
+
+h1 {
+  font-size: 4.0em;
+  text-align: center;
+  font-weight: normal;
+}
+
+button {
+  border: 1px solid $primary-color;
+  background-color: transparent;
+  color: $primary-color;
+  font-size: 2.0em;
+  padding: 0.2em 0.8em;
+
+  &:hover {
+    color: $backing-color;
+    background-color: $primary-color;
+  }
+}

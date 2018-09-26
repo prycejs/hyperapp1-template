@@ -13,6 +13,11 @@ https://github.com/webpack/webpack-dev-middleware
 
 consider: Sass SCSS loading
 https://github.com/webpack-contrib/sass-loader
+for production, best to extract css to single file via
+https://github.com/webpack-contrib/mini-css-extract-plugin
+and consider also: css minification described on that same page
+
+
 
 consider: jest for testing...?
 
