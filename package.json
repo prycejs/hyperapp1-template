@@ -2,11 +2,12 @@
   "name": "hyperapp-test",
   "version": "0.1.0",
   "description": "hyperapp-test",
-  "main": "./src/index.js",
+  "private": true,
   "scripts": {
-    "dev": "webpack --mode development ./src/index.js",
-    "build": "webpack --mode production ./src/index.js",
-    "watch": "webpack --mode development --watch ./src/index.js",
+    "start": "webpack-dev-server --mode development",
+    "dev": "webpack --mode development ./src/index.js ./index.html",
+    "build": "webpack --mode production ./src/index.js ./index.html",
+    "watch": "webpack --mode development --watch ./src/index.js ./index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pryce.js@users.noreply.github.com",
@@ -19,7 +20,8 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
     "hyperapp": "^1.2.9"
