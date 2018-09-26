@@ -1,4 +1,4 @@
-import App from "./App";
+import App from "./components/app";
 
 const arr = [1,2,3];
 const iAmJavascriptES6 = () => console.log(...arr);

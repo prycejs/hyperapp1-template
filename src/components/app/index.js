@@ -1,4 +1,5 @@
 import {h, app} from "hyperapp"
+require('./app.css');
 
 const state = {
   count: 0
