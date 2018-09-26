@@ -6,13 +6,14 @@
   "scripts": {
     "dev": "webpack --mode development ./src/index.js",
     "build": "webpack --mode production ./src/index.js",
-    "watch": "webpack --watch",
+    "watch": "webpack --mode development --watch ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pryce.js@users.noreply.github.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.2",
     "sass-loader": "^7.1.0",
