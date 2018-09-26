@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "dev": "webpack --mode development ./src/index.js ./index.html",
-    "build": "webpack --mode production ./src/index.js ./index.html",
-    "watch": "webpack --mode development --watch ./src/index.js ./index.html",
+    "dev": "webpack --mode development ./src/index.js",
+    "build": "webpack --mode production ./src/index.js",
+    "watch": "webpack --mode development --watch ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pryce.js@users.noreply.github.com",
