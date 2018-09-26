@@ -29,7 +29,7 @@ button {
   margin-left: 0.8em;
   margin-right: 0.8em;
 
-  &:hover {
+  &:active {
     color: $backing-color;
     background-color: $primary-color;
   }
