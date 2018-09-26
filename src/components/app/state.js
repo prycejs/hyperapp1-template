@@ -1,5 +1,11 @@
-const state = {
+import { state } from '../todo-panel'
+
+
+const appState = {
+  ...state,
   count: 0
 }
 
-export default state;
+window.initialAppState = appState;
+
+export default appState;
