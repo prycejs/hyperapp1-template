@@ -47,4 +47,16 @@
     width: 18em; // 18em; 
     padding: 0.2em 0.8em;
   }
+  .todo-add {
+    color: black;
+    background-color: #AABBFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #c70202;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    
+  }
 }
